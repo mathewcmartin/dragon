@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <script src="https://api.mqcdn.com/sdk/mapquest-js/v1.0.0/mapquest.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-js/v1.0.0/mapquest.css"/>
+
+    <script type="text/javascript">
+      window.onload = function() {
+        L.mapquest.key = 'gNGLzcTv5pLlqQgkIqgJyI7c2T5nG2CL';
+
+        var map = L.mapquest.map('map', {
+          center: [0, 0],
+          layers: L.mapquest.tileLayer('map'),
+          zoom: 14
+        });
+
+        L.mapquest.geocoding().geocode('Kenmore, WA');
+      }
+    </script>
+  </head>
+
+  <body style="border: 0; margin: 0;">
+    <div id="map" style="width: 50%; height: 530px;"></div>
+  </body>
+</html>
