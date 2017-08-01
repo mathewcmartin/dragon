@@ -13,8 +13,8 @@ Development Environment using VirtualEnv on Ubuntu 17.04.  [VirtualEnv Reference
 3. Establish a marketable service and clientele
 
 ## Contributors
-Mathew Martin email@mathewcmartin.com
-Kiran Modak
+- Mathew Martin email@mathewcmartin.com
+- Kiran Modak
 
 ## Goals
 - Explore Business Opportunities
